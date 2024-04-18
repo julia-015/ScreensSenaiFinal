@@ -13,7 +13,7 @@ function RecSenha(){
             <View style={styles.form}>
                 <Subtitulo subtitulo="Insira seu e-mail para recuperar a senha!"/>
                 <Input label="Email" placeholder={"Insira seu email:"}/>
-                <Link href="/Cadastro" asChild>
+                <Link href="TelasIniciais/Cadastro" asChild>
                     <Botao texto="Cadastre-se"/> 
                 </Link>
                 
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     form:{
         backgroundColor: "#fff",
         height: '100%',
-        marginTop: 45,
+        paddingTop: 45,
         paddingHorizontal: 20,
         width: "100%",
     },

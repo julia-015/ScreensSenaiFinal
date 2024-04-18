@@ -17,7 +17,7 @@ function Cadastro(){
                 <Input label="Telefone" placeholder={"Insira seu telefone:"}/>
                 <Input label="Senha" placeholder={"Insira sua senha:"} secureTextEntry={true} />
                 <Input label="Confirmar Senha" placeholder={"Insira sua senha:"} secureTextEntry={true} />
-                <Link href="/index" asChild>
+                <Link href="TelasIniciais/Login" asChild>
                     <Botao texto="Cadastre-se"/> 
                 </Link>
                            
@@ -30,8 +30,9 @@ const styles = StyleSheet.create({
     form:{
         backgroundColor: "#fff",
         height: '100%',
-        marginTop: 45,
+        paddingTop: 45,
         paddingHorizontal: 20,
+        paddingBottom: 45,
         width: "100%"
     },
 })

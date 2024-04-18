@@ -28,7 +28,3 @@ const styles = StyleSheet.create({
 });
 
 export default Scanner;
-
-
-// colorcar a imagem do scanner como vetor
-// alterar a tabNav
