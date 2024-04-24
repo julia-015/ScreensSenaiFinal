@@ -5,8 +5,6 @@ import { useColor } from "@temas/Temas"   // implemetação de cores
 
 function Editar(){
   
-  const cores = useColor()
-  
     return( 
         <ScrollView style={styles.scrollview}>
                 <View style={styles.container}>
@@ -20,6 +18,7 @@ function Editar(){
     )
 }
 
+const cores = useColor()
 const styles = StyleSheet.create({
 
     container:{
