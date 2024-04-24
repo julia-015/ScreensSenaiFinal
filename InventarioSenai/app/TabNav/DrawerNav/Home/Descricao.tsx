@@ -1,10 +1,9 @@
 import { View, StyleSheet, ScrollView, Text, TouchableOpacity } from "react-native";
 import { MaterialIcons } from '@expo/vector-icons';
 import { Link } from "expo-router";
-import { useColor } from "@temas/Temas";
+import { useColor } from "@temas/Temas";   // implemetação de cores
 
 function Desc() {
-    const cores = useColor(); 
 
     return ( 
         <ScrollView style={styles.scrollview}>
@@ -31,6 +30,8 @@ function Desc() {
         </ScrollView>
     );
 }
+
+const cores = useColor(); 
 const styles = StyleSheet.create({
 
     container: {
