@@ -14,6 +14,9 @@ interface Cores {
     cadastroHeader?: string,
     bgButtom: string,
     colorLinks: string
+    headerBgColor: string,
+    headerTintColor: string,
+    scannerColor: string
 }
 
 const light: Cores = {
@@ -29,6 +32,9 @@ const light: Cores = {
     cadastroHeader: "#FF0000",
     bgButtom: "#000000",
     colorLinks: "#011E83"
+    headerBgColor: '#FF0000',
+    scannerColor: '#5D5C5C',
+    headerTintColor: '#595959'
 }
 const dark: Cores = {
     bgPrimary: "#240707",
@@ -40,7 +46,15 @@ const dark: Cores = {
     bgHover: "#F39200",
     bgButtom: "#FF0000",
     colorLinks: "#FFFFFF"
+    headerBgColor: "#FF0000",
+    scannerColor: "#D9D9D9",
+    headerTintColor: '#fff',
+    loginHeader: '#240707',
+    recSenhaHeader: '#240707',
+    cadastroHeader: '#240707'
 }
+
+
 
 export function useColor(){
     const colorScheme = useColorScheme();
