@@ -25,7 +25,7 @@ const cores = useColor()
 const styles = StyleSheet.create({
     id:{
         fontSize: 16,
-        fontWeight: '600'
+        fontWeight: '600',
         color: cores.textColorPrimary
     },
     categoria:{
