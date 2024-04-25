@@ -30,6 +30,7 @@ const light: Cores = {
     bgHover: "#F39200",
     loginHeader: "#000000",
     cadastroHeader: "#FF0000",
+    recSenhaHeader: '#011E83',
     bgButtom: "#000000",
     colorLinks: "#011E83",
     headerBgColor: '#FF0000',
@@ -64,6 +65,4 @@ export function useColor(){
     } else {
         return light
     }
-
-  
 }

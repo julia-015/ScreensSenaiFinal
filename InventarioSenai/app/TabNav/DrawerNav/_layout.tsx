@@ -14,6 +14,14 @@ export default function Layout() {
         }} drawerContent={(...props) => (
             CustomDrawer(...props)
         )}>
+            <Drawer.Screen name='Home'
+                options={{
+                    headerShown: false,
+                    drawerIcon: ({size, color}) => (
+                        <MaterialIcons name='home' size={size} color={color} />
+                    ) 
+                }}
+            />
 
             <Drawer.Screen name='Perfil'
                 options={{
