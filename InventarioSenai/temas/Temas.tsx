@@ -31,7 +31,7 @@ const light: Cores = {
     loginHeader: "#000000",
     cadastroHeader: "#FF0000",
     bgButtom: "#000000",
-    colorLinks: "#011E83"
+    colorLinks: "#011E83",
     headerBgColor: '#FF0000',
     scannerColor: '#5D5C5C',
     headerTintColor: '#595959'
@@ -45,7 +45,7 @@ const dark: Cores = {
     inputTextPrimary: "#CBCBCB",
     bgHover: "#F39200",
     bgButtom: "#FF0000",
-    colorLinks: "#FFFFFF"
+    colorLinks: "#FFFFFF",
     headerBgColor: "#FF0000",
     scannerColor: "#D9D9D9",
     headerTintColor: '#fff',
