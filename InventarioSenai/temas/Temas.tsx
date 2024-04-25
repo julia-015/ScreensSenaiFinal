@@ -24,7 +24,7 @@ const light: Cores = {
     bgSecundary: "#FF0000",
     bgInfo: "#011E83",
     textColorPrimary: "#101010",
-    textColorSecundary: "#FFFFFF",
+    textColorSecundary: "#595959",
     inputBgPrimary: "#F5F5F5",
     inputTextPrimary: "#595959",
     bgHover: "#F39200",

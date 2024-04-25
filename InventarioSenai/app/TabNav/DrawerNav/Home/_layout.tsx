@@ -24,7 +24,7 @@ export default function layout() {
             />
 
             <Stack.Screen
-                name='TabNav/DrawerNav/Home/Editar'
+                name='Editar'
                 options={{
                     headerRight: () => <Ionicons name="checkmark-circle" size={24} color="white" />,
                     headerTitle: "Editar",
@@ -35,7 +35,7 @@ export default function layout() {
             />
 
             <Stack.Screen
-                name="TabNav/DrawerNav/Home/Cad-Itens"
+                name="Cad-Itens"
                 options={{
                     headerRight: () => <Ionicons name="add-circle-outline" size={24} color='white' />,
                     headerTitle: "Cadastro de itens",
@@ -44,7 +44,7 @@ export default function layout() {
                     headerTitleAlign: 'center'
                 }}
             />
-            <Stack.Screen name="TabNav/DrawerNav/Home/Descricao" options={{
+            <Stack.Screen name="Descricao" options={{
 
                 headerRight: () => (
                     <Ionicons name="refresh" size={24} color='white' />
