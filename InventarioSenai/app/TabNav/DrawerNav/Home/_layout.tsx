@@ -1,3 +1,4 @@
+import React from "react";
 import { Stack } from "expo-router"
 import { DrawerToggleButton } from "@react-navigation/drawer"
 import { useColor } from "../../../../temas/Temas";    // implementação das cores
@@ -11,12 +12,8 @@ export default function layout(){
     return(
         <Stack>
             <Stack.Screen name="Inventarios" options={{
-                headerLeft: () => (
-                <DrawerToggleButton />
-                ),
-                headerSearchBarOptions:{
-                    placeholder: "Pesquisar"
-                },
+                headerLeft: () => <DrawerToggleButton tintColor={cores.headerTintColor} />,
+                headerSearchBarOptions: { placeholder: "Pesquisar"},
                 headerTitleAlign: 'center',
                 headerTitle: 'Lista',
                 headerTintColor: cores.headerTintColor,
