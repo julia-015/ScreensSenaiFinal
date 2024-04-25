@@ -16,7 +16,7 @@ function InputItem({ label, descInicial, ...props }: InputItemProps) {
   const styles = StyleSheet.create({
     label: {
       fontSize: 14,
-      color: textColor,
+      color: cores.textColorPrimary,
       fontWeight: '600',
     },
     input: {
@@ -28,7 +28,7 @@ function InputItem({ label, descInicial, ...props }: InputItemProps) {
       backgroundColor: cores.bgPrimary,
       borderColor: hover,
       borderWidth: 1,
-      color: textColor,
+      color: cores.textColorPrimary,
     },
     textlabel: {
       flexDirection: 'row',
