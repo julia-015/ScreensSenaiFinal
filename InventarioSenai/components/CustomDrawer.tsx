@@ -1,10 +1,8 @@
-import {View, Text} from 'react-native'
+import {View, Text, StyleSheet, Image} from 'react-native'
 import { DrawerItemList } from '@react-navigation/drawer'
 import { useColor } from '@temas/Temas';   // implementação de cores
 
 export default function CustomDrawer(props: any){
-
-    const cores = useColor();
     
     return(
         <View style={styles.container}>
