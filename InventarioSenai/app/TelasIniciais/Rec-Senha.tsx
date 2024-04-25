@@ -24,16 +24,16 @@ function RecSenha(){
 
 const cores = useColor()
 const styles = StyleSheet.create({
+    container: {
+        backgroundColor: cores.bgPrimary,
+        flex: 1
+    },
     form:{
         backgroundColor: "#fff",
         height: '100%',
         paddingTop: 45,
         paddingHorizontal: 20,
         width: "100%",
-    },
-    container: {
-        backgroundColor: cores.bgPrimary,
-        flex: 1
     },
 })
 export default RecSenha

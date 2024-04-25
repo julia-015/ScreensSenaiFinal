@@ -1,7 +1,7 @@
 import { View, StyleSheet, ScrollView, Text, TouchableOpacity } from "react-native";
 import { MaterialIcons } from '@expo/vector-icons';
 import { Link } from "expo-router";
-import { useColor } from "@temas/Temas";   // implemetação de cores
+import { useColor } from "@temas/Temas";   // implementação de cores
 
 function Desc() {
 

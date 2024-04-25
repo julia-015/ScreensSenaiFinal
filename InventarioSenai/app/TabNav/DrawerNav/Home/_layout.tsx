@@ -5,26 +5,26 @@ import { useColor } from "../../../../temas/Temas";    // implementação das co
 import { Ionicons } from '@expo/vector-icons';
 
 
-export default function layout(){
+export default function layout() {
 
     const cores = useColor();
-    
-    return(
+
+    return (
         <Stack>
             <Stack.Screen name="Inventarios" options={{
                 headerLeft: () => <DrawerToggleButton tintColor={cores.headerTintColor} />,
-                headerSearchBarOptions: { placeholder: "Pesquisar"},
+                headerSearchBarOptions: { placeholder: "Pesquisar" },
                 headerTitleAlign: 'center',
                 headerTitle: 'Lista',
                 headerTintColor: cores.headerTintColor,
                 headerStyle: { backgroundColor: cores.bgPrimary }
-            
+
             }}
-            
+
             />
 
-            <Stack.Screen 
-                name='Editar' 
+            <Stack.Screen
+                name='TabNav/DrawerNav/Home/Editar'
                 options={{
                     headerRight: () => <Ionicons name="checkmark-circle" size={24} color="white" />,
                     headerTitle: "Editar",
@@ -34,8 +34,8 @@ export default function layout(){
                 }}
             />
 
-            <Stack.Screen 
-                name="Cad-Itens" 
+            <Stack.Screen
+                name="TabNav/DrawerNav/Home/Cad-Itens"
                 options={{
                     headerRight: () => <Ionicons name="add-circle-outline" size={24} color='white' />,
                     headerTitle: "Cadastro de itens",
@@ -44,17 +44,23 @@ export default function layout(){
                     headerTitleAlign: 'center'
                 }}
             />
-            <Stack.Screen 
-                name="Descricao" 
-                options={{
-                    headerRight: () => <Ionicons name="refresh" size={24} color={'white'} />,
-                    headerTitle: "Descrição do item",
-                    headerTintColor: "#fff",
-                    headerStyle: { backgroundColor: cores.bgSecundary },
-                    headerTitleAlign: 'center'
-                }}
-            />
-            
+            <Stack.Screen name="TabNav/DrawerNav/Home/Descricao" options={{
+
+                headerRight: () => (
+                    <Ionicons name="refresh" size={24} color='white' />
+                ),
+                headerTitle: "Descrição do item",
+                headerTintColor: "#fff",
+                headerStyle: { backgroundColor: cores.bgSecundary },
+                headerTitleAlign: 'center'
+            }} />
+
+        
+
+            <Stack.Screen name='TabNav' options={{
+            headerShown: false
+            }}/> 
         </Stack>
+
     );
 }

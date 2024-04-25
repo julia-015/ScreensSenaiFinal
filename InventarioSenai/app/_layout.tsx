@@ -24,40 +24,8 @@ export default function layout() {
           headerTintColor: "#fff"
         }}/>
 
-        <Stack.Screen name="TelasIniciais/Cad-Itens" options={{
-          headerTitle: "Cadastro de itens",
-          headerTintColor: "#fff",
-          headerStyle: { backgroundColor: "#FF0000" }
-          
-        }}/>
-
-        <Stack.Screen name="TelasIniciais/Descricao" options={{
-          
-          headerRight: () => (
-            <Ionicons name="refresh" size={24} color='white' />
-          ),
-          headerTitle: "Descrição do item",
-          headerTintColor: "#fff",
-          headerStyle: { backgroundColor: cores.bgSecundary },
-          headerTitleAlign: 'center'
-        }}/>
-
-        <Stack.Screen name='TabNav' options={{
-          headerShown: false
-        }}/> 
-      </Stack>
-
-      <div>
-        <Stack.Screen name="TabNav/DrawerNav/Home/Descricao" options={{
-          headerRight: () => (
-            <Ionicons name="add-circle-outline" size={24} color='white' />
-          ),
-          headerTitle: "Cadastro de itens",
-          headerTintColor: "#fff",
-          headerStyle: { backgroundColor: cores.bgSecundary },
-          headerTitleAlign: 'center'
-        }} />
-      </div>
+        
+      </div> 
     </>    
   )
 }

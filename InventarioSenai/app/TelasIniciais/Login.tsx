@@ -17,12 +17,12 @@ function Login(){
                 <Input label="Senha" placeholder ={'Insira sua senha:'} secureTextEntry={true}/>
                 <LinkBtn title="Entrar" href="TabNav"/>
                 <View style={styles.links}>
-                    <Link href="/TelasIniciais/Cadastro" asChild>
+                    <Link href="./TelasIniciais/Cadastro" asChild>
                         <TouchableOpacity>
                             <Text style={styles.text}>Cadastre-se</Text>
                         </TouchableOpacity>
                     </Link>
-                    <Link href="/TelasIniciais/Rec-Senha" asChild>
+                    <Link href="./TelasIniciais/Rec-Senha" asChild>
                         <TouchableOpacity>
                             <Text style ={styles.text}>Esqueceu a senha?</Text>  
                         </TouchableOpacity>
